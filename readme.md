@@ -6,4 +6,4 @@ Consultas sql
 Producto con mas stock
 SELECT * FROM tbl_producto t WHERE t.stock_producto = ( SELECT MAX( stock_producto ) FROM tbl_producto); 
 Producto mas vendido
-SELECT id_producto, SUM(cantidad_venta) as Cantidad FROM tbl_venta GROUP BY id_producto
+SELECT id_producto, SUM(cantidad_venta) as Cantidad FROM tbl_venta GROUP BY id_producto ORDER BY SUM(cantidad_venta) DESC LIMIT 1; 
