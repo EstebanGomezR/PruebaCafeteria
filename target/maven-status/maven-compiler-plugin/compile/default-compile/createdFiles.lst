@@ -1,0 +1,10 @@
+co\com\konecta\dao\CRUDProduct.class
+co\com\konecta\dao\CreateConnection.class
+co\com\konecta\servlets\AddProductServlet.class
+co\com\konecta\servlets\ListProductServlet.class
+co\com\konecta\models\Producto.class
+co\com\konecta\models\Categoria.class
+co\com\konecta\servlets\UpdateProductServlet.class
+co\com\konecta\servlets\DeleteProductServlet.class
+co\com\konecta\servlets\ListCategoriesServlet.class
+co\com\konecta\models\Venta.class

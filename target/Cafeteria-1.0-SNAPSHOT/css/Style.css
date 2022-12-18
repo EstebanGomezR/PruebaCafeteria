@@ -1,0 +1,21 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 17/12/2022, 11:19:38 AM
+    Author     : esteban gomez
+*/
+body{
+    background-color: azure;
+}
+.icontabla{
+    width:10px; 
+    height:10px;
+    border:none; 
+}
+
+.icontabla:hover{
+    width:20px;
+    height:20px;
+}
